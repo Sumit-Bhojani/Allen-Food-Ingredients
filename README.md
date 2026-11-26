@@ -1,6 +1,8 @@
 # Allen Food Ingredients Website
 
-Premium food ingredients website built with **React + Vite** (frontend) and **Node.js + Express** (backend).
+Modern, high-performance website for **Allen Food Ingredients** built with **React (Vite)**, modern CSS, and **Node.js (Express)**, featuring custom vector branding and full mobile responsiveness.
+
+---
 
 ## 🚀 Quick Start
 
@@ -21,11 +23,11 @@ cd ../server && npm install
 ```bash
 # Start frontend (from project root)
 npm run dev
-# → Opens at http://localhost:5173
+# → Live at http://localhost:5173
 
 # Start backend (in a separate terminal)
 npm run server
-# → Runs on http://localhost:5000
+# → Live at http://localhost:5000
 ```
 
 ### Build for Production
@@ -33,54 +35,45 @@ npm run server
 npm run build
 ```
 
-## 📁 Project Structure
+---
 
+## 🌐 Deploy to Vercel
+
+### Option A: Via GitHub (Recommended)
+1. Create a new repository on GitHub (e.g. `allen-food-ingredients`).
+2. Push your code:
+   ```bash
+   git remote add origin https://github.com/<your-username>/allen-food-ingredients.git
+   git push -u origin main
+   ```
+3. Go to [vercel.com](https://vercel.com/) and click **"Add New..." ➔ "Project"**.
+4. Import the `allen-food-ingredients` repository.
+5. Click **Deploy**! (Pre-configured `vercel.json` automatically handles the Vite build and SPA routing).
+
+### Option B: Directly via Vercel CLI
+Run the following in the project root:
+```bash
+npx vercel
 ```
-Allen Food Ingredients/
-├── client/                  # React Frontend (Vite)
-│   ├── src/
-│   │   ├── components/      # Reusable components
-│   │   │   ├── Navbar.jsx
-│   │   │   ├── Footer.jsx
-│   │   │   ├── HeroSection.jsx
-│   │   │   └── WhatsAppButton.jsx
-│   │   ├── pages/           # Page components
-│   │   │   ├── Home.jsx
-│   │   │   ├── About.jsx
-│   │   │   ├── Products.jsx
-│   │   │   ├── ProductCategory.jsx
-│   │   │   ├── Blog.jsx
-│   │   │   ├── Contact.jsx
-│   │   │   └── Certifications.jsx
-│   │   ├── data/            # Static data
-│   │   │   ├── products.js
-│   │   │   └── content.js
-│   │   ├── App.jsx
-│   │   └── index.css
-│   └── package.json
-├── server/                  # Node.js Backend (Express)
-│   ├── routes/
-│   │   └── contact.js
-│   ├── index.js
-│   ├── .env
-│   └── package.json
-├── package.json
-└── README.md
+Follow the interactive prompts to log in and deploy. For production deployment:
+```bash
+npx vercel --prod
 ```
 
-## 🎨 Features
-- Modern responsive design with Playfair Display + Inter fonts
-- Animated sections with Framer Motion
-- 8 product categories with 40+ individual products
-- Contact form with validation
-- WhatsApp chat widget
-- Sticky navigation with dropdown menus
-- Mobile-responsive hamburger menu
-- Smooth scroll-to-top on page navigation
-- SEO-friendly page structure
+---
 
-## 🛠 Tech Stack
-- **Frontend:** React 18, Vite, React Router, Framer Motion
-- **Backend:** Node.js, Express, Nodemailer
-- **Styling:** CSS3 with custom properties (CSS variables)
-- **Icons:** React Icons (Feather + Font Awesome)
+## 📦 Authentic Product Range
+Strictly aligned with the live business operations:
+1. **Dehydrated White Onion** (Flakes, Chopped, Minced, Granules, Powder)
+2. **Dehydrated Red/Pink Onion** (Flakes, Chopped, Minced, Granules, Powder)
+3. **Dehydrated Garlic** (Flakes/Cloves, Chopped, Minced, Granules, Powder)
+4. **Indian Spices** (Red Chilli, Turmeric, Ginger, Green Chilli)
+5. **Edible Seeds** (Yellow Mustard, Cumin, Fennel, Fenugreek, Chia)
+
+---
+
+## 📞 Official Contact Info
+- **Phone**: +91 76229 94133
+- **Email**: info@allenfoodingredients.com
+- **Location**: India
+- **Business Hours**: Mon – Sat: 9:00 AM – 7:00 PM
