@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80" fill="none">
+  <defs>
+    <linearGradient id="logoGradWhite" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22c55e" />
+      <stop offset="100%" stop-color="#4ade80" />
+    </linearGradient>
+    <linearGradient id="accentGradWhite" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#f87171" />
+    </linearGradient>
+  </defs>
+
+  <!-- Modern Emblem -->
+  <g transform="translate(10, 10)">
+    <!-- Hexagon outline -->
+    <path d="M30 2 L56 16 L56 44 L30 58 L4 44 L4 16 Z" fill="rgba(255,255,255,0.06)" stroke="url(#logoGradWhite)" stroke-width="2.5" stroke-linejoin="round" />
+    
+    <!-- Stylized A & Sprout -->
+    <path d="M16 46 L27 15 C28 12 32 12 33 15 L44 46" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Organic Leaf Crossbar -->
+    <path d="M20 33 C26 31 35 30 42 22 C42 28 39 36 26 37 Z" fill="url(#logoGradWhite)" />
+    
+    <!-- Seed / Spice dot accent -->
+    <circle cx="30" cy="20" r="2.8" fill="url(#accentGradWhite)" />
+  </g>
+
+  <!-- Brand Typography -->
+  <g transform="translate(80, 16)">
+    <!-- ALLEN -->
+    <text x="0" y="32" font-family="'Inter', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="30" font-weight="800" letter-spacing="2.5" fill="#ffffff">
+      ALLEN
+    </text>
+    
+    <!-- Small Leaf Accent next to Allen -->
+    <path d="M125 15 C132 12 138 16 137 23 C130 24 126 21 125 15 Z" fill="url(#logoGradWhite)" />
+    
+    <!-- FOOD INGREDIENTS -->
+    <text x="1" y="47" font-family="'Inter', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="9" font-weight="600" letter-spacing="4.5" fill="#4ade80">
+      FOOD INGREDIENTS
+    </text>
+  </g>
+</svg>
